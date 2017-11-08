@@ -11,4 +11,11 @@ int main (){
 	cout<<"masukn nilai y :";
 	cin>>y;
 	
+	if (x>y){
+		z=x-y;
+	}
+	else if(y>x){
+		z=y-x;
+	}
+	cout<<"hasil :"<<z;
 }
